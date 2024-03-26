@@ -32,7 +32,7 @@ namespace ConsoleAppFuncWhile
                         double desc = double.Parse(Console.ReadLine());
 
                         sal_b = sal - desc;
-                        Console.WriteLine("O salário bruto é R$" + sal_b);
+                        Console.WriteLine("O salário bruto é " + sal_b.ToString("C"));
 
                         sal_total += sal_b;
                         cont++;
@@ -45,7 +45,7 @@ namespace ConsoleAppFuncWhile
                         double v_pe = double.Parse(Console.ReadLine());
 
                         sal_b = q_pe * v_pe;
-                        Console.WriteLine("O salário bruto é R$" + sal_b);
+                        Console.WriteLine("O salário bruto é " + sal_b.ToString("C"));
                         sal_total += sal_b;
                         cont++;
                         break;
@@ -59,7 +59,7 @@ namespace ConsoleAppFuncWhile
                         int q_h = int.Parse(Console.ReadLine());
 
                         sal_b = v_h * q_h;
-                        Console.WriteLine("O salário bruto é R$" + sal_b);
+                        Console.WriteLine("O salário bruto é " + sal_b.ToString("C"));
                         sal_total += sal_b;
                         cont++;
                         break;
